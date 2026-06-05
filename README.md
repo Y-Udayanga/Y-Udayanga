@@ -9,6 +9,10 @@
 
 <img src="https://komarev.com/ghpvc/?username=Y-Udayanga&label=Profile%20views&color=58A6FF&style=flat" alt="Profile views" />
 
+<br/><br/>
+
+<img src="./assets/coding-rain.png" width="80%" alt="Coding with coffee on a rainy night" />
+
 </div>
 
 <!-- ===================== ABOUT ME ===================== -->
