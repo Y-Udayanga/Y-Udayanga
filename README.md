@@ -84,12 +84,12 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Y-Udayanga&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Y-Udayanga&hide_border=true&theme=tokyonight" alt="GitHub Streak" />
+<img height="170" src="./github-metrics/stats.svg" alt="GitHub Stats" />
+<img height="170" src="./github-metrics/streak.svg" alt="GitHub Streak" />
 
 <br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Y-Udayanga&layout=compact&hide_border=true&theme=tokyonight" alt="Top Languages" />
+<img height="170" src="./github-metrics/top-langs.svg" alt="Top Languages" />
 
 </div>
 
@@ -98,7 +98,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Y-Udayanga&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+<img src="./github-metrics/trophies.svg" alt="GitHub Trophies" />
 
 </div>
 

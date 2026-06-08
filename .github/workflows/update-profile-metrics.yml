@@ -1,0 +1,57 @@
+name: Update Profile Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "github-metrics/**"
+
+permissions:
+  contents: write
+
+jobs:
+  update-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&hide_border=true&theme=tokyonight
+          path: github-metrics/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&theme=tokyonight
+          path: github-metrics/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card
+        run: |
+          curl -fsSL -o github-metrics/streak.svg \
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&theme=tokyonight"
+
+      - name: Generate trophy card
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file: github-metrics/trophies.svg
+          theme: tokyonight
+          no-frame: "true"
+
+      - name: Commit and push metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-metrics/*.svg
+          git diff --staged --quiet || git commit -m "chore: update profile metrics"
+          git push

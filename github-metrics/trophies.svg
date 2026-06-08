@@ -1,5 +1,5 @@
-Payment required
-
-DEPLOYMENT_DISABLED
-
-bom1::rql2r-1780943185314-0856aa322f2c
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="120" viewBox="0 0 700 120">
+  <rect width="700" height="120" fill="#1a1b27" rx="10"/>
+  <text x="350" y="55" fill="#58a6ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Generating trophies...</text>
+  <text x="350" y="85" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="middle">This updates automatically via GitHub Actions</text>
+</svg>
