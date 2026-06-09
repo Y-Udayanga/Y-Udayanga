@@ -41,7 +41,7 @@
   </a>
 </p>
 
-> 💡 Replace the `YOUR_*` placeholders above with your real links (or delete the badges you don't use).
+
 
 <!-- ===================== TECH STACK ===================== -->
 ## 🛠️ Tech Stack
