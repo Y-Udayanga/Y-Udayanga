@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+﻿<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
                 style='isolation: isolate' viewBox='0 0 495 195' width='495px' height='195px' direction='ltr'>
         <style>
             @keyframes currstreak {
@@ -13,7 +13,7 @@
         </style>
         <defs>
             <clipPath id='outer_rectangle'>
-                <rect width='495' height='195' rx='4.5'/>
+                <rect width='495' height='195' rx='12'/>
             </clipPath>
             <mask id='mask_out_ring_behind_fire'>
                 <rect width='495' height='195' fill='white'/>
@@ -23,11 +23,11 @@
         </defs>
         <g clip-path='url(#outer_rectangle)'>
             <g style='isolation: isolate'>
-                <rect stroke='#000000' stroke-opacity='0' fill='#1A1B27' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
+                <rect stroke='#30363D' stroke-opacity='1' fill='#0D1117' rx='12' x='0.5' y='0.5' width='494' height='194'/>
             </g>
             <g style='isolation: isolate'>
-                <line x1='165' y1='28' x2='165' y2='170' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#E4E2E2' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>
-                <line x1='330' y1='28' x2='330' y2='170' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#E4E2E2' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>
+                <line x1='165' y1='28' x2='165' y2='170' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#30363D' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>
+                <line x1='330' y1='28' x2='330' y2='170' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#30363D' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>
             </g>
             <g style='isolation: isolate'>
                 <!-- Total Contributions big number -->

@@ -22,7 +22,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&hide_border=true&theme=tokyonight
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&theme=tokyonight&hide_border=false&border_radius=12&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=FFD166&border_color=30363D
           path: github-metrics/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -30,14 +30,14 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&theme=tokyonight
+          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=false&border_radius=12&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_color=30363D
           path: github-metrics/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate streak card
         run: |
           curl -fsSL -o github-metrics/streak.svg \
-            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&theme=tokyonight"
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=false&border_radius=12&background=0D1117&border=30363D&stroke=58A6FF&ring=FFD166&fire=FF7B72&currStreakNum=58A6FF&sideNums=38BDAE&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E"
 
       - name: Generate trophy card
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
@@ -46,7 +46,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           file: github-metrics/trophies.svg
           theme: tokyonight
-          no-frame: "true"
+          no-frame: "false"
+          no-bg: "false"
 
       - name: Commit and push metrics
         run: |
