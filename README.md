@@ -10,9 +10,6 @@
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=Y-Udayanga&label=Profile%20views&color=58A6FF&style=for-the-badge" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/Y-Udayanga?style=for-the-badge&color=38BDAE&labelColor=0D1117&logo=github" alt="GitHub followers" />
-<img src="https://img.shields.io/github/stars/Y-Udayanga/Y-Udayanga?style=for-the-badge&color=FFD166&labelColor=0D1117&logo=github" alt="GitHub stars" />
-
 <br/><br/>
 
 <img src="./assets/coding-rain-animated.gif" width="86%" alt="Animated kid coding with coffee on a rainy night" />
@@ -148,10 +145,6 @@
     </td>
   </tr>
 </table>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Y-Udayanga&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=FFD166&area=true&area_color=1F6FEB&hide_border=false&border_radius=12" width="96%" alt="GitHub activity graph" />
 
 </div>
 
