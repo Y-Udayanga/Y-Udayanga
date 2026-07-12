@@ -11,8 +11,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=Y-Udayanga&label=Profile%20views&color=58A6FF&style=for-the-badge" alt="Profile views" />
 <br/><br/>
-
-<img src="./assets/coding-rain-animated.gif" width="86%" alt="Animated kid coding with coffee on a rainy night" />
+<img src="./assets/coding-rain.png" width="86%" alt="Kid coding with coffee on a rainy night" />
 
 </div>
 
