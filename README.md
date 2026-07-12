@@ -153,14 +153,6 @@
 
 </div>
 
-<!-- ===================== ORIGINAL HERO ART ===================== -->
-## Original Coding Artwork
-
-<div align="center">
-
-<img src="./assets/coding-rain.png" width="70%" alt="Coding with coffee on a rainy night" />
-
-</div>
 
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
