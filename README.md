@@ -1,10 +1,10 @@
 <!-- ===================== SUPER PROFILE HEADER ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=180&section=header&text=Yasindu%20Udayanga&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Full-Stack%20Developer%20%7C%20Web%20Builder%20%7C%20Always%20Learning&descAlignY=56&descSize=16" width="100%" alt="Yasindu Udayanga profile banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=180&section=header&text=Yasindu%20Udayanga&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Full-Stack%20Developer%20%7C%20FinOps%20Engineer%20%7C%20Web%20Builder%20%7C%20Always%20Learning&descAlignY=56&descSize=16" width="100%" alt="Yasindu Udayanga profile banner" />
 
 <a href="https://github.com/Y-Udayanga">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Hi+there%2C+I'm+Yasindu+Udayanga+%F0%9F%91%8B;Full-Stack+Developer;I+build+things+for+the+web;Always+learning%2C+always+building" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Hi+there%2C+I'm+Yasindu+Udayanga+%F0%9F%91%8B;Full-Stack+Developer;FinOps+Engineer;I+build+things+for+the+web;Always+learning%2C+always+building" alt="Typing SVG" />
 </a>
 
 <br/>
