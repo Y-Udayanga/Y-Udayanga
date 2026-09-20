@@ -52,6 +52,7 @@ jobs:
           path: .trophy-gen
 
       - name: Generate trophy card
+        continue-on-error: true
         env:
           GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
         run: |
