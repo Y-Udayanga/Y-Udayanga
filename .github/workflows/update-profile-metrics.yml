@@ -16,7 +16,7 @@ jobs:
   update-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
@@ -39,15 +39,28 @@ jobs:
           curl -fsSL -o github-metrics/streak.svg \
             "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=false&border_radius=12&background=0D1117&border=30363D&stroke=58A6FF&ring=FFD166&fire=FF7B72&currStreakNum=58A6FF&sideNums=38BDAE&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E"
 
-      - name: Generate trophy card
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
         with:
-          username: ${{ github.repository_owner }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          file: github-metrics/trophies.svg
-          theme: tokyonight
-          no-frame: "false"
-          no-bg: "false"
+          deno-version: v1.x
+
+      - name: Checkout trophy generator
+        uses: actions/checkout@v5
+        with:
+          repository: Erik-Donath/github-profile-trophy
+          ref: feature/generate-svg
+          path: .trophy-gen
+
+      - name: Generate trophy card
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          deno run --allow-net --allow-env --allow-read --allow-write \
+            .trophy-gen/render_svg.ts \
+            "${{ github.repository_owner }}" \
+            --file "github-metrics/trophies.svg" \
+            --theme "tokyonight"
+          rm -rf .trophy-gen
 
       - name: Commit and push metrics
         run: |
