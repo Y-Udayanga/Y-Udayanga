@@ -1,3 +1,12 @@
+<img src="./assets/crew/frame-top.svg" width="100%" alt="Claudebean, otter, lo-fi crab and cube buddy running along the top" />
+
+<table>
+<tr>
+<td width="58" valign="top">
+<img src="./assets/crew/frame-left.svg" width="58" alt="" />
+</td>
+<td valign="top">
+
 <!-- ===================== SUPER PROFILE HEADER ===================== -->
 <div align="center">
 
@@ -153,16 +162,6 @@
 
 </div>
 
-
-<!-- ===================== CRITTER CREW ===================== -->
-## &#x1F43E; The Critter Crew
-
-<div align="center">
-
-<img src="./assets/critter-parade.svg" width="100%" alt="Cute animal friends running, jumping and greeting each other" />
-
-</div>
-
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
 
@@ -171,3 +170,12 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:38BDAE,100:0D1117&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
+
+</td>
+<td width="58" valign="top">
+<img src="./assets/crew/frame-right.svg" width="58" alt="" />
+</td>
+</tr>
+</table>
+
+<img src="./assets/crew/frame-bottom.svg" width="100%" alt="Friends running along the bottom of the profile" />

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 78" width="900" height="78" role="img" aria-label="Friends walking along the top of the profile">
+  <defs>
+    <!-- Claudebean -->
+    <g id="bean">
+      <ellipse cx="-23" cy="3" rx="8" ry="5.2" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="23" cy="3" rx="8" ry="5.2" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="0" cy="1" rx="21" ry="18.5" fill="#C45C38" stroke="#2A1A12" stroke-width="2"/>
+      <ellipse cx="-11" cy="5" rx="4.2" ry="2.3" fill="#E88978" opacity=".75"/>
+      <ellipse cx="11" cy="5" rx="4.2" ry="2.3" fill="#E88978" opacity=".75"/>
+      <rect x="-11.5" y="-8" width="7" height="11" rx="1.4" fill="#1A120E"/>
+      <rect x="4.5" y="-8" width="7" height="11" rx="1.4" fill="#1A120E"/>
+      <rect x="-9.6" y="-6.2" width="2.2" height="3" rx=".6" fill="#FFF" opacity=".4"/>
+      <ellipse cx="-8" cy="20" rx="3.3" ry="6.5" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="0" cy="21" rx="3.3" ry="6.8" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="8" cy="20" rx="3.3" ry="6.5" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+    </g>
+    <!-- Chef Claudebean -->
+    <g id="chef">
+      <rect x="-11" y="-28" width="22" height="8" rx="3" fill="#EEF2F6" stroke="#2A1A12" stroke-width="1.6"/>
+      <rect x="-7" y="-21" width="14" height="10" rx="2" fill="#EEF2F6" stroke="#2A1A12" stroke-width="1.6"/>
+      <ellipse cx="-23" cy="4" rx="8" ry="5.2" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="0" cy="2" rx="20" ry="17.5" fill="#C45C38" stroke="#2A1A12" stroke-width="2"/>
+      <rect x="-12" y="-7" width="7" height="10" rx="1.3" fill="#1A120E"/>
+      <path d="M4 -6 h8 v3 h-3 v4 h-5 z" fill="#1A120E"/>
+      <g transform="translate(26,2) rotate(-12)">
+        <rect x="-7" y="-6" width="16" height="12" rx="2" fill="#2B2F36" stroke="#111" stroke-width="1.4"/>
+        <rect x="9" y="-3" width="5" height="6" rx="1" fill="#1A1D22"/>
+        <circle cx="-1" cy="0" r="3.2" fill="#4B5563"/>
+      </g>
+      <ellipse cx="-7" cy="20" rx="3.2" ry="6.2" fill="#C45C38" stroke="#2A1A12" stroke-width="1.7"/>
+      <ellipse cx="6" cy="20" rx="3.2" ry="6.2" fill="#C45C38" stroke="#2A1A12" stroke-width="1.7"/>
+    </g>
+    <!-- Lo-fi crab (pixel) -->
+    <g id="crab">
+      <g transform="translate(-16,-16)">
+        <rect x="4" y="4" width="24" height="22" fill="#F76707"/>
+        <rect x="0" y="10" width="8" height="8" fill="#F76707"/>
+        <rect x="24" y="10" width="8" height="8" fill="#F76707"/>
+        <rect x="8" y="26" width="6" height="8" fill="#E8590C"/>
+        <rect x="18" y="26" width="6" height="8" fill="#E8590C"/>
+        <rect x="8" y="10" width="5" height="6" fill="#1A120E"/>
+        <rect x="19" y="10" width="5" height="6" fill="#1A120E"/>
+        <g transform="translate(10,16) rotate(-28)">
+          <rect x="0" y="0" width="26" height="7" rx="1" fill="#7C3AED"/>
+          <rect x="18" y="-3" width="10" height="13" rx="2" fill="#6D28D9"/>
+          <rect x="2" y="1" width="4" height="5" fill="#4C1D95"/>
+        </g>
+      </g>
+    </g>
+    <!-- Otter -->
+    <g id="otter">
+      <ellipse cx="0" cy="10" rx="16" ry="15" fill="#C17A4A" stroke="#5C3A24" stroke-width="1.6"/>
+      <ellipse cx="0" cy="14" rx="10" ry="8" fill="#F3D6B4"/>
+      <circle cx="0" cy="-6" r="13.5" fill="#C17A4A" stroke="#5C3A24" stroke-width="1.6"/>
+      <circle cx="-10" cy="-16" r="4.2" fill="#C17A4A" stroke="#5C3A24" stroke-width="1.4"/>
+      <circle cx="10" cy="-16" r="4.2" fill="#C17A4A" stroke="#5C3A24" stroke-width="1.4"/>
+      <ellipse cx="0" cy="-2" rx="9" ry="7.5" fill="#F3D6B4"/>
+      <circle cx="-4.5" cy="-6" r="2.1" fill="#2A1A12"/>
+      <circle cx="4.5" cy="-6" r="2.1" fill="#2A1A12"/>
+      <ellipse cx="0" cy="-1.2" rx="2.4" ry="1.7" fill="#2A1A12"/>
+      <path d="M-2 2 q2 2.4 4 0" stroke="#2A1A12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+      <path d="M-8 10 l8 4 8-4 v6 l-8-4 -8 4 z" fill="#F4C430" stroke="#C9A227" stroke-width=".8"/>
+    </g>
+    <!-- Cube buddy -->
+    <g id="cube">
+      <ellipse cx="14" cy="8" rx="6" ry="8" fill="#D4A373" stroke="#8A5A2B" stroke-width="1.3"/>
+      <rect x="-16" y="-14" width="30" height="30" rx="6" fill="#E07A5F" stroke="#9B4A38" stroke-width="1.8"/>
+      <circle cx="-6" cy="-4" r="2.3" fill="#3B2417"/>
+      <circle cx="6" cy="-4" r="2.3" fill="#3B2417"/>
+      <circle cx="-7.2" cy="-5" r=".7" fill="#FFF"/>
+      <path d="M-5 4 q5 5 10 0" stroke="#3B2417" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-9" cy="1" rx="2.4" ry="1.5" fill="#F4A5A0" opacity=".8"/>
+      <ellipse cx="9" cy="1" rx="2.4" ry="1.5" fill="#F4A5A0" opacity=".8"/>
+      <g transform="translate(-22,-18)">
+        <rect width="14" height="16" rx="1.5" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+        <text x="7" y="11" font-family="ui-monospace,monospace" font-size="8" fill="#2563EB" text-anchor="middle">&lt;/&gt;</text>
+      </g>
+      <path d="M16 -2 l8 -10" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="2 2" fill="none"/>
+      <g transform="translate(22,-18)">
+        <circle r="3" fill="#2DD4BF" opacity=".9"/>
+        <path d="M22 -18 m-3 0 a3 3 0 0 0 6 0 a3 3 0 0 0 -6 0" transform="translate(-22,18)" fill="none"/>
+      </g>
+      <circle cx="22" cy="-18" r="3.2" fill="#34D399" stroke="#0F766E" stroke-width="1"/>
+      <path d="M20.6 -18.8 q1.4 .4 2.8 0" stroke="#0F766E" stroke-width=".7" fill="none"/>
+      <line x1="18" y1="-2" x2="24" y2="-12" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="2 1.5"/>
+    </g>
+  </defs>
+
+  <!-- track -->
+  <path d="M18 64 H882" stroke="#30363D" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M18 64 H882" stroke="#58A6FF" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="8 14" opacity=".55">
+    <animate attributeName="stroke-dashoffset" values="0;22" dur="1.2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Claudebean running right -->
+  <g>
+    <animateMotion dur="16s" repeatCount="indefinite" path="M 40 40 H 860"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur=".42s" repeatCount="indefinite"/>
+      <use href="#bean" transform="translate(0,0) scale(1.05)"/>
+    </g>
+  </g>
+
+  <!-- Otter waddling left, greeting -->
+  <g>
+    <animateMotion dur="19s" repeatCount="indefinite" path="M 860 42 H 40"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-6 0 8; 6 0 8; -6 0 8" dur=".7s" repeatCount="indefinite"/>
+      <use href="#otter" transform="scale(0.92)"/>
+    </g>
+  </g>
+
+  <!-- Lo-fi crab strutting right -->
+  <g>
+    <animateMotion dur="13s" begin="2s" repeatCount="indefinite" path="M 30 44 H 870"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur=".35s" repeatCount="indefinite"/>
+      <use href="#crab"/>
+    </g>
+  </g>
+
+  <!-- Cube jogging left -->
+  <g>
+    <animateMotion dur="17s" begin="1s" repeatCount="indefinite" path="M 870 40 H 40"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur=".5s" repeatCount="indefinite"/>
+      <use href="#cube" transform="scale(0.86)"/>
+    </g>
+  </g>
+
+  <!-- Chef bean wandering, snapping photos -->
+  <g>
+    <animateMotion dur="22s" begin="4s" repeatCount="indefinite" path="M 80 38 H 820 H 80"/>
+    <use href="#chef" transform="scale(0.9)"/>
+  </g>
+
+  <!-- hello bubble near the middle -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.12;.4;.55;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="412" y="4" width="76" height="22" rx="11" fill="#161B22" stroke="#30363D"/>
+    <text x="450" y="19" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#58A6FF">hi friends!</text>
+  </g>
+</svg>

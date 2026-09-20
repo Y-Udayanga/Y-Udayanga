@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 2100" width="64" height="2100" role="img" aria-label="Friends climbing the left edge">
+  <defs>
+    <g id="bean">
+      <ellipse cx="-23" cy="3" rx="8" ry="5.2" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="23" cy="3" rx="8" ry="5.2" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="0" cy="1" rx="21" ry="18.5" fill="#C45C38" stroke="#2A1A12" stroke-width="2"/>
+      <ellipse cx="-11" cy="5" rx="4.2" ry="2.3" fill="#E88978" opacity=".75"/>
+      <ellipse cx="11" cy="5" rx="4.2" ry="2.3" fill="#E88978" opacity=".75"/>
+      <rect x="-11.5" y="-8" width="7" height="11" rx="1.4" fill="#1A120E"/>
+      <rect x="4.5" y="-8" width="7" height="11" rx="1.4" fill="#1A120E"/>
+      <ellipse cx="-8" cy="20" rx="3.3" ry="6.5" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="0" cy="21" rx="3.3" ry="6.8" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+      <ellipse cx="8" cy="20" rx="3.3" ry="6.5" fill="#C45C38" stroke="#2A1A12" stroke-width="1.8"/>
+    </g>
+    <g id="crab">
+      <g transform="translate(-16,-16)">
+        <rect x="4" y="4" width="24" height="22" fill="#F76707"/>
+        <rect x="0" y="10" width="8" height="8" fill="#F76707"/>
+        <rect x="24" y="10" width="8" height="8" fill="#F76707"/>
+        <rect x="8" y="26" width="6" height="8" fill="#E8590C"/>
+        <rect x="18" y="26" width="6" height="8" fill="#E8590C"/>
+        <rect x="8" y="10" width="5" height="6" fill="#1A120E"/>
+        <rect x="19" y="10" width="5" height="6" fill="#1A120E"/>
+        <g transform="translate(10,16) rotate(-28)">
+          <rect x="0" y="0" width="26" height="7" rx="1" fill="#7C3AED"/>
+          <rect x="18" y="-3" width="10" height="13" rx="2" fill="#6D28D9"/>
+        </g>
+      </g>
+    </g>
+    <g id="otter">
+      <ellipse cx="0" cy="10" rx="16" ry="15" fill="#C17A4A" stroke="#5C3A24" stroke-width="1.6"/>
+      <ellipse cx="0" cy="14" rx="10" ry="8" fill="#F3D6B4"/>
+      <circle cx="0" cy="-6" r="13.5" fill="#C17A4A" stroke="#5C3A24" stroke-width="1.6"/>
+      <circle cx="-10" cy="-16" r="4.2" fill="#C17A4A" stroke="#5C3A24" stroke-width="1.4"/>
+      <circle cx="10" cy="-16" r="4.2" fill="#C17A4A" stroke="#5C3A24" stroke-width="1.4"/>
+      <ellipse cx="0" cy="-2" rx="9" ry="7.5" fill="#F3D6B4"/>
+      <circle cx="-4.5" cy="-6" r="2.1" fill="#2A1A12"/>
+      <circle cx="4.5" cy="-6" r="2.1" fill="#2A1A12"/>
+      <path d="M-8 10 l8 4 8-4 v6 l-8-4 -8 4 z" fill="#F4C430"/>
+    </g>
+  </defs>
+
+  <path d="M48 12 V2088" stroke="#30363D" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M48 12 V2088" stroke="#58A6FF" stroke-width="2" fill="none" stroke-dasharray="8 14" opacity=".45">
+    <animate attributeName="stroke-dashoffset" values="0;22" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+
+  <g>
+    <animateMotion dur="22s" repeatCount="indefinite" path="M 28 40 V 2060"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 3 0; 0 0" dur=".45s" repeatCount="indefinite"/>
+      <use href="#bean" transform="scale(0.92)"/>
+    </g>
+  </g>
+  <g>
+    <animateMotion dur="18s" begin="3s" repeatCount="indefinite" path="M 28 2060 V 40"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -2 0; 0 0" dur=".38s" repeatCount="indefinite"/>
+      <use href="#crab" transform="scale(0.95)"/>
+    </g>
+  </g>
+  <g>
+    <animateMotion dur="26s" begin="6s" repeatCount="indefinite" path="M 28 200 V 1900 V 200"/>
+    <use href="#otter" transform="scale(0.82)"/>
+  </g>
+</svg>
