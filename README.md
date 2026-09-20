@@ -1,12 +1,5 @@
 <img src="./assets/crew/frame-top.svg" width="100%" alt="Claude AI Mascot Crew running, greeting, and playing along the top frame" />
 
-<table>
-<tr>
-<td width="76" valign="top">
-<img src="./assets/crew/frame-left.svg" width="76" alt="Claude AI mascots climbing the left frame rail" />
-</td>
-<td valign="top">
-
 <!-- ===================== SUPER PROFILE HEADER ===================== -->
 <div align="center">
 
@@ -170,12 +163,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:38BDAE,100:0D1117&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
-
-</td>
-<td width="76" valign="top">
-<img src="./assets/crew/frame-right.svg" width="76" alt="Claude AI mascots climbing the right frame rail" />
-</td>
-</tr>
-</table>
 
 <img src="./assets/crew/frame-bottom.svg" width="100%" alt="Claude AI Mascot Crew celebrating, dancing, and thanking visitors along the bottom frame" />
