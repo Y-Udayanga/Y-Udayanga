@@ -154,6 +154,15 @@
 </div>
 
 
+<!-- ===================== CRITTER CREW ===================== -->
+## &#x1F43E; The Critter Crew
+
+<div align="center">
+
+<img src="./assets/critter-parade.svg" width="100%" alt="Cute animal friends running, jumping and greeting each other" />
+
+</div>
+
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
 
