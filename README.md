@@ -129,15 +129,15 @@
 <table>
   <tr>
     <td>
-      <img height="178" src="https://github-readme-stats.vercel.app/api?username=Y-Udayanga&show_icons=true&count_private=true&theme=tokyonight&hide_border=false&border_radius=12&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=FFD166&border_color=30363D" alt="GitHub Stats" />
+      <img height="178" src="./github-metrics/stats.svg" alt="GitHub Stats" />
     </td>
     <td>
-      <img height="178" src="https://streak-stats.demolab.com/?user=Y-Udayanga&theme=tokyonight&hide_border=false&border_radius=12&background=0D1117&border=30363D&stroke=58A6FF&ring=FFD166&fire=FF7B72&currStreakNum=58A6FF&sideNums=38BDAE&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak" />
+      <img height="178" src="./github-metrics/streak.svg" alt="GitHub Streak" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img height="178" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Y-Udayanga&layout=compact&theme=tokyonight&hide_border=false&border_radius=12&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_color=30363D" alt="Top Languages" />
+      <img height="178" src="./github-metrics/top-langs.svg" alt="Top Languages" />
     </td>
   </tr>
 </table>
@@ -149,7 +149,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Y-Udayanga&theme=tokyonight&no-frame=false&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies" />
+<img src="./github-metrics/trophies.svg" alt="GitHub Trophies" />
 
 </div>
 
