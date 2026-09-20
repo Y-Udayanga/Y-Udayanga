@@ -1,9 +1,9 @@
-<img src="./assets/crew/frame-top.svg" width="100%" alt="Claudebean, otter, lo-fi crab and cube buddy running along the top" />
+<img src="./assets/crew/frame-top.svg" width="100%" alt="Claude AI Mascot Crew running, greeting, and playing along the top frame" />
 
 <table>
 <tr>
-<td width="58" valign="top">
-<img src="./assets/crew/frame-left.svg" width="58" alt="" />
+<td width="76" valign="top">
+<img src="./assets/crew/frame-left.svg" width="76" alt="Claude AI mascots climbing the left frame rail" />
 </td>
 <td valign="top">
 
@@ -172,10 +172,10 @@
 </div>
 
 </td>
-<td width="58" valign="top">
-<img src="./assets/crew/frame-right.svg" width="58" alt="" />
+<td width="76" valign="top">
+<img src="./assets/crew/frame-right.svg" width="76" alt="Claude AI mascots climbing the right frame rail" />
 </td>
 </tr>
 </table>
 
-<img src="./assets/crew/frame-bottom.svg" width="100%" alt="Friends running along the bottom of the profile" />
+<img src="./assets/crew/frame-bottom.svg" width="100%" alt="Claude AI Mascot Crew celebrating, dancing, and thanking visitors along the bottom frame" />
