@@ -17,7 +17,7 @@
 <table>
   <tr>
     <td width="38%" align="center" valign="middle">
-      <img src="./assets/yasindu-binary-face.jpg" width="280" alt="Yasindu Udayanga digital binary portrait" />
+      <img src="./assets/yasindu-binary-green.jpg" width="280" alt="Yasindu Udayanga green binary portrait" />
     </td>
     <td width="24%" align="center" valign="middle">
       <img src="./assets/profile-mid-connector.svg" width="120" alt="Binary stream" />
