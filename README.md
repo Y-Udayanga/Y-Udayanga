@@ -13,7 +13,20 @@
 
 <img src="https://komarev.com/ghpvc/?username=Y-Udayanga&label=Profile%20views&color=58A6FF&style=for-the-badge" alt="Profile views" />
 <br/><br/>
-<img src="./assets/coding-rain.png" width="86%" alt="Kid coding with coffee on a rainy night" />
+
+<table>
+  <tr>
+    <td width="38%" align="center" valign="middle">
+      <img src="./assets/yasindu-binary-face.jpg" width="280" alt="Yasindu Udayanga digital binary portrait" />
+    </td>
+    <td width="24%" align="center" valign="middle">
+      <img src="./assets/profile-mid-connector.svg" width="120" alt="Binary stream" />
+    </td>
+    <td width="38%" align="center" valign="middle">
+      <img src="./assets/intro-clip.gif" width="280" alt="Intro video" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
