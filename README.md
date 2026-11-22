@@ -16,14 +16,20 @@
 
 <table>
   <tr>
-    <td width="38%" align="center" valign="middle">
-      <img src="./assets/yasindu-binary-green.jpg" width="280" alt="Yasindu Udayanga green binary portrait" />
+    <td width="36%" align="center" valign="middle">
+      <img src="./assets/yasindu-matrix.gif" width="260" alt="Yasindu Udayanga - Green Binary Matrix Avatar" />
     </td>
-    <td width="24%" align="center" valign="middle">
-      <img src="./assets/profile-mid-connector.svg" width="120" alt="Binary stream" />
-    </td>
-    <td width="38%" align="center" valign="middle">
-      <img src="./assets/intro-clip.gif" width="280" alt="Intro video" />
+    <td width="64%" valign="middle" align="left">
+      <h3 align="left">☁️ <i>"Resilience by design. Efficiency by code."</i></h3>
+      <p align="left">
+        <i>"In modern DevOps and Cloud architecture, reliability is not an afterthought—it is engineered into every commit. Automate the routine, eliminate the toil, continuously optimize cloud footprint (FinOps), and architect systems that scale effortlessly under pressure."</i>
+      </p>
+      <p align="left">
+        <b>🚀 Automate &bull; 📊 Optimize &bull; 🛡️ Scale Reliably</b>
+      </p>
+      <p align="left">
+        <code>$ terraform apply -auto-approve &amp;&amp; kubectl rollout status deploy/app</code>
+      </p>
     </td>
   </tr>
 </table>
@@ -79,7 +85,7 @@
 
 </td>
 <td width="38%" align="center" valign="middle">
-  <img src="./assets/coding-kid.png" width="280" alt="Coding at night" />
+  <img src="./assets/profilevideo.gif" width="280" alt="Coding at night" />
 </td>
 </tr>
 </table>
