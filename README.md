@@ -50,6 +50,10 @@
   </tr>
 </table>
 
+<table>
+<tr>
+<td width="62%" valign="top">
+
 <!-- ===================== ABOUT ME ===================== -->
 ## &#x1F468;&#x200D;&#x1F4BB; About Me
 
@@ -72,6 +76,13 @@
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
   </a>
 </p>
+
+</td>
+<td width="38%" align="center" valign="middle">
+  <img src="./assets/coding-kid.png" width="280" alt="Coding at night" />
+</td>
+</tr>
+</table>
 
 <!-- ===================== TECH STACK ===================== -->
 ## &#x1F6E0;&#xFE0F; Tech Stack
